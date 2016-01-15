@@ -1,0 +1,56 @@
+#title {
+	position: relative;
+	text-align: center;
+	color: 99CCFF;
+	font-size: 60;
+}
+
+#places {
+	position: relative;
+	text-align: center;
+	font-size: 20;
+}
+
+.places {
+	color:E0E0E0 
+}
+
+.title {
+	color: 99ccff;
+}
+
+.things {
+}
+
+
+#back {
+	position: relative;
+	background-image: url(https://www.google.com/maps/d/embed?mid=zwqkzuBpSS0I.kXvhoZPwIVyw); 
+	background-size: cover;
+}
+
+#dis {
+	position: relative;
+	text-align: center; 
+	color: F0F0F0;
+	padding-top: 8%;
+	/* padding-right: 75%; */
+	-webkit-filter: blur(.50px);
+	z-index: 0;
+}
+
+#submit {
+	width: 10;
+}
+
+#googleMap{
+	position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;	
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
